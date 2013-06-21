@@ -1,5 +1,5 @@
 var createLink = function(root, path) {
-  console.log(path);
+  $(root).parent().append("<a href='" + path + "'>Skip</a>");
 }
 
 var grabTree = function(root, current) {
