@@ -12,7 +12,7 @@ var grabTree = function(root, current) {
       {
         grabTree(root, objects.first());
       }
-      else
+      else if(root != current)
       {
         createLink(root, $(current).attr("href"));
       }
