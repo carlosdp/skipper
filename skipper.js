@@ -44,6 +44,10 @@ $(document).ready(function(){
     });
   }
 
-  $(this).bind('DOMNodeInserted', findLinks);
+  if($('table.files').length > 0)
+  {
+    $(this).bind('DOMNodeInserted', findLinks);
+  }
+
   findLinks();
 });
