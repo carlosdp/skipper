@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Skipper",
+  "version": "1.0",
+  "description": "Skip through empty directory structures in GitHub.",
+  "content_scripts":[
+      {
+        "matches":["<all_urls>"],
+        "js":["jquery.js", "skipper.js"]
+      }
+    ]
+}
