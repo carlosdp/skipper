@@ -2,7 +2,12 @@
   "manifest_version": 2,
   "name": "Skipper",
   "version": "1.0",
-  "description": "Skip through empty directory structures in GitHub.",
+  "description": "Skip through verbose, single-branch directory structures in GitHub.",
+  "icons":{
+    "16":"skipper16.png",
+    "64":"skipper64.png",
+    "128":"skipper128.png"
+  },
   "content_scripts":[
       {
         "matches":["<all_urls>"],
