@@ -12,7 +12,7 @@ var grabTree = function(root, current) {
       {
         grabTree(root, objects.first());
       }
-      else if(root != current)
+      else if(root != current && $(current).parent().parent().find('.icon span').hasClass('octicon-file-directory'))
       {
         createLink(root, $(current).attr("href"));
       }
