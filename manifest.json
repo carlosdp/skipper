@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Skipper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Skip through verbose, single-branch directory structures in GitHub.",
   "icons":{
     "16":"skipper16.png",
